@@ -34,7 +34,7 @@ func Day3() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		length := len(line)
-		groupsOf3.accept(line)
+		groupsOf3.Accept(line)
 
 		first := []rune(line[0 : length/2])
 		second := []rune(line[length/2:])

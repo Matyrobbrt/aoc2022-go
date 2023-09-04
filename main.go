@@ -1,13 +1,13 @@
 package main
 
 import (
+	"aoc2022/aoc"
 	"github.com/AlecAivazis/survey/v2"
-	"golearning/aoc"
 	"strconv"
 )
 
 var days = []func(){
-	aoc.Day1, aoc.Day2, aoc.Day3, aoc.Day4, aoc.Day5,
+	aoc.Day1, aoc.Day2, aoc.Day3, aoc.Day4, aoc.Day5, aoc.Day6, aoc.Day7,
 }
 
 func main() {
